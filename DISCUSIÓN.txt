@@ -1,0 +1,20 @@
+Funcion de coste:
+Necesitamos una funcion que nos asigne a cada estado un coste en el que luego se
+basara A* para encontrar el camino optimo.
+Necesitamos que cuanto mas cerca estemos de la solucion mas bajo sea el coste y nos tenemos que basar en algun parametro relevante, teniendo en cuenta que no sea igual que la heuristica.
+
+idea num1: num de casillas atacadas / num de caballos
+Ej:
+    k 0 k ! k k 1   
+    1 k 1 ! k 0 1   
+    0 1 0 ! 1 1 1   
+
+Aunque tengan el mismo num de caballos esta claro que la primera esta mas cerca de ser la solucion que la segunda.
+
+Función heuristica:
+es una funcion que devuelve un valor aproximado de la distancia a la solucion y que preferiblemente, como se indica en los apuntes, en el estado solucion sea 0 y que se base en una propiedad simple de un estado(Es decir, que tiene que ser algo simple, puesto que es una aproximación). 
+
+Tambien necesitamos una que sea admisible, es decir, que no sobrestime que es basicamente que el valor aproximado va a ser siempre igual menor o igual que la distancia real.
+
+idea num1: num casillas vacias(sin atacar y sin caballos)/ casillas atacadas
+    buscamos una relación entre las casillas validas(sin atacar y sin caballos) y las casillas ya atacadas, puesto que son estados que no son validos.
