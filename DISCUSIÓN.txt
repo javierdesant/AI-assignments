@@ -11,6 +11,8 @@ Ej:
 
 Aunque tengan el mismo num de caballos esta claro que la primera esta mas cerca de ser la solucion que la segunda.
 
+num2 IMP = num caballos + atacadas
+
 Función heuristica:
 es una funcion que devuelve un valor aproximado de la distancia a la solucion y que preferiblemente, como se indica en los apuntes, en el estado solucion sea 0 y que se base en una propiedad simple de un estado(Es decir, que tiene que ser algo simple, puesto que es una aproximación). 
 
@@ -18,3 +20,7 @@ Tambien necesitamos una que sea admisible, es decir, que no sobrestime que es ba
 
 idea num1: num casillas vacias(sin atacar y sin caballos)/ casillas atacadas
     buscamos una relación entre las casillas validas(sin atacar y sin caballos) y las casillas ya atacadas, puesto que son estados que no son validos.
+idea num2: tamaño de tablero - (caballos + casillas atacadas)
+
+
+IMPORTANTE: faltan por revisar la heuristica y la funcion de coste pero se puede seguir avanzando en el trabajo. Parecen demasiado simples asique habra queprobar mas opciones.
