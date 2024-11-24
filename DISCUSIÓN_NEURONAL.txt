@@ -1,0 +1,8 @@
+REPRESENTACION
+Necesitamos un sistema de representacionque nos permita ver claramente la solucion y que los datos sean facilmente
+extraibles.
+IDEA 1:
+arraybidimensional(lista de listas es tambien valido): N=3 asignaturas (IA, ALG y BD) con las siguientes horas semanales h1=1, h2=2 y h3=3, y un horario de M=3 días con k=3 horas por día.
+cada posicion seria una hora y contendria un string con las asignaturas siendo cada una un numero, 0, 1, 2 etc, correspondientes a su posicion en ele array courses.
+
+    
