@@ -4,5 +4,9 @@ extraibles.
 IDEA 1:
 arraybidimensional(lista de listas es tambien valido): N=3 asignaturas (IA, ALG y BD) con las siguientes horas semanales h1=1, h2=2 y h3=3, y un horario de M=3 días con k=3 horas por día.
 cada posicion seria una hora y contendria un string con las asignaturas siendo cada una un numero, 0, 1, 2 etc, correspondientes a su posicion en ele array courses.
+En las franjas horarias en las que no haya asignaturas habra un objeto None que habra que manejar.
 
+
+FUNCION FITNESS
+necesitamos una funcion fitness que este bastante guapa y no solo eso, si no que nos descarte opciones invalidas y clasifique las validas. Eso quiere decir que los valores c1 y c2 del enunciado y su funcionamiento seria el mismo.
     
